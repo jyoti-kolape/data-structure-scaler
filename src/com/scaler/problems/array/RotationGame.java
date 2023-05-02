@@ -15,11 +15,20 @@ public class RotationGame {
     }
 
     public static int[] rotateGame(int[] A, int B) {
-        int[] ans = new int[A.length];
-        for (int i = 0; i < A.length; i++) {
-            int index = (i + B) % A.length;
-            ans[index] = A[i];
+        B = B % A.length;
+        reverse(A, 0, A.length - 1);
+        reverse(A, 0, B - 1);
+        reverse(A, B, A.length - 1);
+        return A;
+    }
+
+    public static void reverse(int[] A, int start, int end) {
+        while (start < end) {
+            int temp = A[start];
+            A[start] = A[end];
+            A[end] = temp;
+            start++;
+            end--;
         }
-        return ans;
     }
 }
