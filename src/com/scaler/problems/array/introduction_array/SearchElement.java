@@ -1,4 +1,4 @@
-package com.scaler.problems.array;
+package com.scaler.problems.array.introduction_array;
 
 /*
 You are given an integer T (number of test cases).

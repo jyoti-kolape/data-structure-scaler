@@ -1,4 +1,4 @@
-package com.scaler.problems.array;
+package com.scaler.problems.array.introduction_array;
 /*
 Take input an array A of size N and write a
 program to print maximum and minimum elements of the input.

@@ -1,4 +1,4 @@
-package com.scaler.problems.array;
+package com.scaler.problems.array.introduction_array;
 
 /*
 Little Ponny is given an array, A, of N integers. In a particular operation,

@@ -1,4 +1,4 @@
-package com.scaler.problems.array;
+package com.scaler.problems.array.introduction_array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
